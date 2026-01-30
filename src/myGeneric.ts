@@ -20,3 +20,5 @@ identityThree<Bottle>({brand:"skol",type:3});
 function getSearchProduct<T>(products:T[]):T|undefined{
     return products[3]
 }
+const getMoreSearchProduct=<T>(products:T[]):T[]=>products
+

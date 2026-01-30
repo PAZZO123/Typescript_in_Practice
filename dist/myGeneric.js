@@ -13,4 +13,5 @@ identityThree({ brand: "skol", type: 3 });
 function getSearchProduct(products) {
     return products[3];
 }
+const getMoreSearchProduct = (products) => products;
 //# sourceMappingURL=myGeneric.js.map

@@ -22,3 +22,15 @@ function getSearchProduct<T>(products:T[]):T|undefined{
 }
 const getMoreSearchProduct=<T>(products:T[]):T[]=>products
 
+
+interface Database{
+    Connection:string,
+    Username:string,
+    Password:string
+}
+
+function anotherFn<T ,U extends Database>(val1:T,val2:U):Object{
+    return {}
+}
+
+anotherFn(24,{Connection:'connected',Username:"mysql",Password:""})

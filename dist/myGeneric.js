@@ -14,4 +14,8 @@ function getSearchProduct(products) {
     return products[3];
 }
 const getMoreSearchProduct = (products) => products;
+function anotherFn(val1, val2) {
+    return {};
+}
+anotherFn(24, { Connection: 'connected', Username: "mysql", Password: "" });
 //# sourceMappingURL=myGeneric.js.map

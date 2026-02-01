@@ -9,6 +9,6 @@ interface Course{//course interface
   subject:string
 }
 
-class Sellable<T>{
+class Sellable<T>{//sellable class which will inhert
 public cart:T[]=[]
 }

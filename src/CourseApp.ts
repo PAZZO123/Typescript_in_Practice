@@ -3,7 +3,7 @@ interface Quiz{//quiz interface
  name:string
  marks:number
 }
-interface Course{
+interface Course{//course interface
   name:string
   author:string
   subject:string

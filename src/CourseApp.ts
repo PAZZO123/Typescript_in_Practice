@@ -1,4 +1,4 @@
-interface Quiz{
+interface Quiz{//quiz interface
  type:string
  name:string
  marks:number

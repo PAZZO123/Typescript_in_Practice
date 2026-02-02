@@ -3,7 +3,10 @@ function detector(val) {
     if (typeof val === 'string') {
         return val.toLowerCase();
     }
-    return val;
+    else if (typeof val === 'object') {
+        return val;
+    }
+    return val + 4;
 }
 function provideId(id) {
     if (!id) {

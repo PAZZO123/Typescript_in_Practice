@@ -2,7 +2,10 @@ function detector(val:number | string | number[]){
     if(typeof val ==='string'){
         return val.toLowerCase()
     }
-    return val
+    else if(typeof val ==='object'){
+        return val
+    }
+    return val+4
 }
 
 

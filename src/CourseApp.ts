@@ -11,4 +11,8 @@ interface Course{//course interface
 
 class Sellable<T>{//sellable class which will inhert
 public cart:T[]=[]
+
+addToCart(product:T){
+  this.cart.push(product)
+}
 }

@@ -1,1 +1,1 @@
-{"version":3,"file":"CourseApp.js","sourceRoot":"","sources":["../src/CourseApp.ts"],"names":[],"mappings":";AAWA,MAAM,QAAQ;IAAd;QACO,SAAI,GAAK,EAAE,CAAA;IAClB,CAAC;CAAA"}
+{"version":3,"file":"CourseApp.js","sourceRoot":"","sources":["../src/CourseApp.ts"],"names":[],"mappings":";AAWA,MAAM,QAAQ;IAAd;QACO,SAAI,GAAK,EAAE,CAAA;IAKlB,CAAC;IAHD,SAAS,CAAC,OAAS;QACjB,IAAI,CAAC,IAAI,CAAC,IAAI,CAAC,OAAO,CAAC,CAAA;IACzB,CAAC;CACA"}

@@ -5,6 +5,9 @@ function getShapeArea(val) {
             return val.radius * Math.PI;
         case "square":
             return val.side * val.side;
+        case "triangle":
+            return val.length * val.width;
+        //Exhaustive Checking 
         default:
             const defaultshape = val;
             return defaultshape;

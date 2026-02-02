@@ -1,1 +1,1 @@
-{"version":3,"file":"as_narrowing.js","sourceRoot":"","sources":["../src/as_narrowing.ts"],"names":[],"mappings":";AAGA,SAAS,MAAM,CAAC,GAAc;IAC1B,OAAQ,GAAY,CAAC,IAAI,KAAK,SAAS,CAAA;AAC3C,CAAC"}
+{"version":3,"file":"as_narrowing.js","sourceRoot":"","sources":["../src/as_narrowing.ts"],"names":[],"mappings":";AAGA,SAAS,MAAM,CAAC,GAAc;IAC1B,OAAQ,GAAY,CAAC,IAAI,KAAK,SAAS,CAAA;AAC3C,CAAC;AAED,SAAS,OAAO,CAAC,GAAe;IAC5B,IAAG,MAAM,CAAC,GAAG,CAAC,EAAE,CAAC;QACb,GAAG,CAAA;QACH,OAAO,WAAW,CAAA;IACtB,CAAC;IACD,GAAG,CAAA;IACH,OAAO,WAAW,CAAA;AACtB,CAAC"}

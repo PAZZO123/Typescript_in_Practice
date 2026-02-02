@@ -5,4 +5,10 @@ function detector(val) {
     }
     return val;
 }
+function provideId(id) {
+    if (!id) {
+        throw new Error('Empty Id detected');
+    }
+    return id.toLowerCase();
+}
 //# sourceMappingURL=narrowing.js.map

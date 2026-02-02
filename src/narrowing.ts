@@ -4,3 +4,11 @@ function detector(val:number | string | number[]){
     }
     return val
 }
+
+
+function provideId(id:string |null ){
+    if(!id){
+        throw new Error('Empty Id detected')
+    }
+    return id.toLowerCase()
+}

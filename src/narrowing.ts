@@ -1,4 +1,4 @@
-function detector(val:number | string){
+function detector(val:number | string | number[]){
     if(typeof val ==='string'){
         return val.toLowerCase()
     }

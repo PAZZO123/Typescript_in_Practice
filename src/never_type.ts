@@ -11,6 +11,7 @@ interface Triangle{
     length:number,
     width:number
 }
+//discriminated unions
 type Shape=Circle| Square |Triangle
 
 function getShapeArea(val:Shape){

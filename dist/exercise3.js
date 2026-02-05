@@ -15,12 +15,15 @@
 class Shape2D {
 }
 class Circle extends Shape2D {
-    constructor(radius) {
+    constructor(r) {
         super();
-        this.radius = radius;
+        this.r = r;
+    }
+    get Radius() {
+        return this.r;
     }
     area() {
-        return Math.PI * this.radius ** 2;
+        return Math.PI * this.r ** 2;
     }
 }
 class Rectangle extends Shape2D {
@@ -33,4 +36,11 @@ class Rectangle extends Shape2D {
         return this.width * this.length;
     }
 }
+let list = [
+    new Circle(2),
+    new Rectangle(2, 5)
+];
+list.forEach(function (shape) {
+    console.log(shape.area());
+});
 //# sourceMappingURL=exercise3.js.map

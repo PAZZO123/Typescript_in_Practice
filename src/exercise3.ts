@@ -17,12 +17,17 @@ abstract class Shape2D {
     abstract  area():number
 }
 
-class Circle extends Shape2D{
-    constructor(public radius:number){
-        super()
+class Circle extends Shape2D {
+    constructor(private r: number) {
+        super();
     }
+
+    get Radius() {
+        return this.r;
+    }
+
     area(): number {
-        return Math.PI*this.radius**2
+        return Math.PI * this.r ** 2;
     }
 }
 
@@ -38,3 +43,11 @@ class Rectangle extends Shape2D{
     }
 
 }
+let list=[
+    new Circle(2),
+    new Rectangle(2,5)
+]
+list.forEach(function(shape){
+    console.log(shape.area())
+
+})

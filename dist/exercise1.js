@@ -23,5 +23,5 @@ function processValue(value) {
 processValue(true);
 processValue(12);
 processValue("name");
-//processValue(null)
+processValue(null);
 //# sourceMappingURL=exercise1.js.map

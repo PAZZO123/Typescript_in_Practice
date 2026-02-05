@@ -20,3 +20,10 @@ const user = validateUser(apiResponse);
 console.log(user.name); // Pazzo
 console.log(user.age);  // 23
 
+
+type PartialUser=Partial<Usere>
+
+const users:PartialUser={
+    name:'Patrick'
+}
+console.log(users)

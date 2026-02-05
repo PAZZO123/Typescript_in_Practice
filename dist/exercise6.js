@@ -9,4 +9,8 @@ const apiResponse = { name: "Pazzo", age: 23 };
 const user = validateUser(apiResponse);
 console.log(user.name); // Pazzo
 console.log(user.age); // 23
+const users = {
+    name: 'Patrick'
+};
+console.log(users);
 //# sourceMappingURL=exercise6.js.map

@@ -16,7 +16,7 @@
       | { type: 'email'; to: string; subject: string; }
       | { type: 'sms'; to: string; phone: string; }
       | { type: 'push'; to: string; deviceId: string; }
-      | { type: 'pushed'; to: string; device: string; };
+    //  | { type: 'pushed'; to: string; device: string; };
  function assertNever(x:never):never{
   throw new Error(`Unhandled Case ${JSON.stringify(x)}`)
  }

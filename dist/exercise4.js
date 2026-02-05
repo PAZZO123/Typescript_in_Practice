@@ -1,4 +1,5 @@
 "use strict";
+//  | { type: 'pushed'; to: string; device: string; };
 function assertNever(x) {
     throw new Error(`Unhandled Case ${JSON.stringify(x)}`);
 }

@@ -23,5 +23,4 @@ logOrder({
   customer: {
     name: 'Jane',
     // address is missing
-  }
-});
+  
